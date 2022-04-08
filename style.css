@@ -1,0 +1,354 @@
+.center-width{
+    margin: auto !important;
+    width: 80% !important;
+}
+
+.fixed-top {
+    background-color: aliceblue;
+}
+.d-flex .btn-secondary {
+    background-color: rgb(36, 36, 134);
+    margin-left: 27px;
+}
+
+.container-fluid .navbar-logo {
+    padding-left: 50px;
+}
+
+
+.d-flex {
+   padding-right: 50px;
+
+}
+
+.first-section {
+    background-color: rgb(36, 36, 134);
+    margin-top: 100px;
+    
+}
+@media (max-width:768px) {
+   .col-img {
+      display: none !important;
+  }  
+  .col-text  h3{
+    font-size: 25px !important;
+  }
+  .col-text  h5{
+    font-size: 25px !important;
+  }
+}
+
+.col-lg-7 .col-text .col-img  {
+    margin-top: 50px;
+}
+
+.col-lg-7 .col-text {
+    color: white;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    
+
+}
+.col-lg-7 .col-text h3 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 44px;
+    
+}
+
+.col-lg-5 .col-img {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+   
+}
+
+
+.col-lg-7 .col-text p {
+    line-height: 25px;
+}
+
+.green {
+    color: green;
+}
+
+.col-lg-5 .col-img img {
+    border: 6px solid white;
+    border-radius: 10px;
+    
+}
+
+.buttons .btn-outline-light {
+        background-color: green;
+        border: 1px solid green;
+        margin-left: 100px;
+}
+
+.navbar-nav .nav-item {
+    padding-left: 10px;
+}
+
+/**Second container starts**/
+.section-two {
+    margin-top: 70px;
+}
+.col-lg-6 .img-two img {
+    width: 90%;
+   
+}
+@media (max-width:768px) {
+    .img-two {
+       display: none !important;
+   }
+}  
+
+.col-lg-6 .img-two  {
+    padding-left: 100px;
+    
+}
+
+.col-lg-6 .text-two h4 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.col-lg-6 .text-two p {
+    font-weight: 400;
+    line-height: 30px;
+}
+/**Second container ends**/
+
+.text-center {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/**Third container starts**/
+.col-lg-6 .text-center {
+     margin-top: 0em !important;
+     border: 50%;
+}
+
+.col-lg-6 .text-three p h3{
+   margin-left: 40px;
+   font-weight: 500;
+}
+/**Third container ends**/
+
+/**Fourth container starts**/
+
+.col-lg-6 .img-four img {
+    width: 90%;
+}
+
+.mobile-view .text-center  h2 {
+    display: none !important;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.mobile-view .text-center  h5 {
+    display: none !important;
+}
+
+.col-lg-6 .text-four {
+    padding-top: 40px;
+    padding-left: 150px
+} 
+@media (max-width:768px) {
+    .col-lg-6 .text-four {
+       display: none;
+    }
+}
+
+
+@media (max-width:768px) {
+    .mobile-view .text-center .col-lg-12 h5 {
+      font-weight: 400;
+      font-size: 30px;
+    }
+}
+
+.col-lg-6 .text-four h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.jumbotron {
+    background-color: rgb(247, 242, 242);
+}
+/**Fourth container ends**/
+
+/**fifth container starts*/
+.separate-column   {
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+
+@media (max-width:768px) {
+    .separate-column .card {
+        margin-bottom: 20px!important;
+    }
+}
+@media (max-width:520px) {
+    .separate-column .card-header h3 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:390px) {
+    .separate-column .card-header h3 {
+        font-size: 15px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width:520px) {
+    .separate-column .card .card-body .card-text h3 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:390px) {
+    .separate-column .card .card-body .card-text h3 {
+        font-size: 12px!important;
+        font-weight: 300!important;
+    }
+}
+
+@media (max-width:520px) {
+    .separate-column .card-footer .btn-primary {
+        font-size: 18px !important;
+        font-weight: 500 !important;
+    }
+}
+
+@media (max-width:390px) {
+    .separate-column .card-footer .btn-primary .lowercase {
+        font-size: 15px !important;
+        text-transform: initial !important;
+    }
+}
+
+.col-lg-3 .card .card-header {
+    background-color: rgb(56, 61, 216);
+    color: white;
+    border-radius: 10px;
+}
+
+.col-lg-3 .card-body .card-text {
+    color:rgb(56, 61, 216);
+}
+
+.col-lg-3 .card  .card-footer {
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+.btn-primary{
+    border-radius: 40px;
+    background-color: blue;
+  
+    font-weight: 500;
+}
+.col-lg-3 .card {
+    background-color: rgb(253, 253, 253);
+    border-radius: 20px;
+}
+/**fifth container ends*/
+
+/**Sixth container starts**/
+.col-lg-12 .btn-read-more {
+    background-color: rgb(14, 14, 100);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+
+/**Sixth container ends**/
+
+.text-center .btn-secondary {
+    color: white;
+    background-color: blue;
+}
+
+/**Seventh container start**/
+.subscribe-newsletter-div{
+    background-color: rgb(2, 16, 73);
+    padding: 60px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+
+.col-md-12 h2{
+    padding-bottom: 50px;
+}
+/**Seventh container start**/
+.footer {
+    background-color: black;
+    color:white;
+    padding: 65px;
+    text-decoration: none;
+}
+.col-lg-3 .column ul {
+   text-decoration: none;
+   list-style-type: none;
+}
+
+.col-lg-3 .column ul {
+    text-decoration: none;
+    line-height: 35px;
+}
+.col-lg-3 .column ul a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.col-lg-2 .column ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ .col-lg-2 .column ul a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding-right: 13px;
+}
+
+.sub-footer {
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(91, 90, 90);
+    color:black;
+}
+
+input[type=submit] {
+        
+   background-color: #4CAF50;
+   color: white;
+   padding: 6px 15px;
+   margin:-10px;
+   border:2px solid #4CAF50;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+input[type=email], select {
+    width: 30%;
+    padding: 7px 3px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,114 @@
+.fixed-top {
+    background-color: aliceblue;
+}
+.d-flex .btn-secondary {
+    background-color: rgb(36, 36, 134);
+    margin-left: 27px;
+}
+
+.container-fluid .navbar-logo {
+    padding-left: 50px;
+}
+
+.d-flex {
+   padding-right: 50px;
+}
+
+.background-img {
+    background-image:
+    linear-gradient(to bottom, rgba(206, 208, 214, 0.92), rgba(70, 111, 134, 0.83)),
+    url('img/fg-img.jpg');
+    padding: 100px;
+}
+
+.background-img h2 {
+    color:rgb(12, 12, 122);
+    font-weight: 800;
+    font-size:40px;
+    padding-top: 2em;
+}
+
+.background-img p{
+    color: black;
+    font-weight: 700;
+    padding-top: 1.5em;
+    
+}
+
+.faq-section-page {
+    margin-top: -50px;
+}
+
+/**Seventh container start**/
+.subscribe-newsletter-div{
+    background-color: rgb(2, 16, 73);
+    padding: 60px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+
+.col-md-12 h2{
+    padding-bottom: 50px;
+}
+/**Seventh container start**/
+.footer {
+    background-color: black;
+    color:white;
+    padding: 65px;
+    text-decoration: none;
+}
+.col-lg-3 .column ul {
+   text-decoration: none;
+   list-style-type: none;
+}
+
+.col-lg-3 .column ul {
+    text-decoration: none;
+    line-height: 35px;
+}
+.col-lg-3 .column ul a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.col-lg-2 .column ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ .col-lg-2 .column ul a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding-right: 13px;
+}
+
+.sub-footer {
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(91, 90, 90);
+    color:black;
+}
+
+input[type=submit] {
+        
+   background-color: #4CAF50;
+   color: white;
+   padding: 6px 15px;
+   margin:-10px;
+   border:2px solid #4CAF50;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+input[type=email], select {
+    width: 30%;
+    padding: 7px 3px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
